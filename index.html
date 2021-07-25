@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>This Catgirl Does Not Exist</title>
+  <style>
+    body,
+    html {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      font-family: Arial;
+      font-size: .9em;
+      overflow-x: hidden;
+      transition: background-color .5s ease
+    }
+
+    #description {
+      box-sizing: border-box;
+      position: absolute;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      transition: all .5s ease 0s;
+      padding: 5px 8px;
+      bottom: 5px;
+      opacity: 0;
+      right: -500px
+    }
+
+    #description p {
+      padding: 0;
+      margin: 0
+    }
+
+    #description {
+      opacity: .7;
+      right: 5px
+    }
+  </style>
+</head>
+
+<body>
+  <div id="description">
+    <p>Bruhyo</p>
+  </div>
+
+  <script>
+    var totalImages = 2;
+    var img = new Image();
+    var div = document.querySelector("body");
+    img.onload = () => {
+      div.appendChild(img);
+    };
+    id = Math.floor(Math.random() * totalImages);
+    img.src = 'https://catgirldataset.s3.amazonaws.com/' + id + '.jpg';
+  </script>
+</body>
+
+</html>
