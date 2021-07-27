@@ -4,7 +4,8 @@
 
 # This-Catgirl-Does-Not-Exist
 AI generated anime illustrations using [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch)! \
-Site showcasing random generated results: https://edz543.github.io/This-Catgirl-Does-Not-Exist/
+Site showcasing random generated results: https://edz543.github.io/This-Catgirl-Does-Not-Exist/ \
+This was inspired by other cool "this does not exist" sites like https://thispersondoesnotexist.com/ and https://www.thiswaifudoesnotexist.net/
 
 # Details
 Trained on a custom dataset of >10k images for about 4 days on [Google Colab](https://research.google.com/colaboratory/) \
